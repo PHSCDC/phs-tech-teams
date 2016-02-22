@@ -1,0 +1,258 @@
+@font-face{
+	font-family: "Hallo Sans";
+	src: url("font/Hallo sans.otf");
+}
+
+/**{outline: 1px solid purple;}*/
+
+body{
+	margin: 0;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+p{
+	margin: 10px;
+}
+
+div.hr{
+	height: 1px;
+	width: 100%;
+	background-color: #000;
+	margin: 10px 0;
+}
+
+h1{
+	margin: 10px;
+	font-size: 24pt;
+	font-family: "Hallo Sans";
+	font-weight: normal;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.half{
+	width: 50%;
+}
+
+.card{
+	padding: 20px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	display: block;
+	margin: 10px auto;
+}
+
+.card.half{
+	width: calc(50% - 10px);
+}
+
+.card.third{
+	width: calc(100% / 3 - 10px);
+}
+
+.card img{
+	width: 100%;
+}
+
+.third{
+	width: 33.33333333%;
+	width: calc(100%/3);
+}
+
+.wrapper{
+	clear: both;
+}
+
+video{
+	display: block;
+	margin: 0 auto;
+	width: 640px;
+	max-height: 480px;
+}
+
+footer{
+	font-size: 75%;
+	box-shadow: 0 -3px 3px rgba(0,0,0,0.3);
+	padding: 10px;
+	margin-top: 50px;
+}
+
+header{
+	box-sizing: border-box;
+	background-color: #858cad; /* medium blue-grey */
+	top: 0;	
+	min-height: 50px;
+	width: 100%;
+	color: #000;
+	padding: 0 20px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	position: fixed;
+	z-index: 9001;
+	display: table;
+}
+
+header.spacer{
+	visibility: hidden;
+	position: relative;
+}
+
+header *{
+	height: 100%;
+	line-height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	color: #000;
+}
+
+.link-button, .inline-button, .dropdown-button{
+	background-color: #a3a9c2; /* light blue-grey */
+	text-decoration: none;
+	border-radius: 5px;
+	text-align: center;
+	color: #000;
+	display: block;
+	padding: 0.25em;
+	width: 9em;
+	height: 1em;
+}
+
+header .link-button, .dropdown-button{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px 1px;
+}
+
+.dropdown-contents .link-button{
+	margin: 0;
+}
+
+.dropdown-button > p:after{
+	font-size: 75%;
+	content: " \0025bc";
+}
+
+.dropdown-button > p{
+	display: inline;
+	padding-bottom: 0.25em;
+}
+
+.dropdown-contents{
+	left: -4px;
+	display: none;
+	position: relative;
+}
+
+.dropdown-button:hover{
+	background-color: #b3b7cc; /* lighter blue-grey */
+}
+
+.dropdown-button:hover .dropdown-contents{
+	display: block;
+}
+
+.inline-button{
+	margin: 1px;
+	width: auto;
+	padding: 0 5px;
+	display: inline-block;
+	height: auto;
+}
+
+.link-button:hover, .inline-button:hover{
+	background-color: #b3b7cc; /* lighter blue-grey */
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.plain-link{
+	text-decoration: none;
+}
+
+.slideshow{
+	width: 100%;
+	margin: auto;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	clear: both;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.slideshow img{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
+
+.slideshow img:first-child{
+	z-index: 100;
+}
+
+.slideshow #slideshow-left-arrow, .slideshow #slideshow-right-arrow{
+	cursor: pointer;
+	user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+	position: absolute;
+	font-size: 50px;
+	z-index: 101;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+	height: 100%;
+	padding: 0 30px;
+	background-color: rgba(127,127,127,0.1);
+	transition: color 0.2s, padding 0.2s, background-color 0.2s;
+	display: table;
+}
+
+.slideshow #slideshow-left-arrow *, .slideshow #slideshow-right-arrow *{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.slideshow #slideshow-left-arrow:hover, .slideshow #slideshow-right-arrow:hover{
+	color: #b3b7cc; /* lighter blue-grey */
+	background-color: rgba(127,127,127,0.3);
+	padding: 0 40px;
+}
+
+.slideshow #slideshow-left-arrow{
+	left: 0;
+}
+
+.slideshow #slideshow-right-arrow{
+	right: 0;
+}
+
+.slideshow #slideshow-label{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 10px auto;
+	bottom: 0;
+	text-align: center;
+	font-size: 14pt;
+	z-index: 102;
+	color: #fff;
+	text-shadow: 0 0 3px #000;
+}
