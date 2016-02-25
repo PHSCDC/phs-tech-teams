@@ -21,7 +21,7 @@
 </header>
 <header class="spacer">
 	<div class="left">
-		<h1>&nbsp;</h1>
+		<h1>PHS Tech Teams</h1>
 	</div>
 	<div class="right">
 		<a class="link-button">&nbsp;</a>
