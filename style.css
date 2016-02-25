@@ -1,6 +1,6 @@
 @font-face{
-	font-family: "Lovelo";
-	src: url("font/Lovelo Black.otf");
+	font-family: "Kelson Sans";
+	src: url("font/Kelson Sans Bold.otf");
 }
 
 /**{outline: 1px solid purple;}*/
@@ -24,7 +24,7 @@ div.hr{
 h1{
 	margin: 10px;
 	font-size: 24pt;
-	font-family: Lovelo;
+	font-family: "Kelson Sans";
 	font-weight: normal;
 }
 
