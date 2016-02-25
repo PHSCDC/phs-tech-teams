@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php include("header.php"); ?>
-<p>Contact us at phscyberdefense@gmail.com;</p>
+<p>Contact us at <a href="mailto:phscyberdefense@gmail.com">phscyberdefense@gmail.com</a>.</p>
 <?php include("footer.php"); ?>
 </body>
 </html>
