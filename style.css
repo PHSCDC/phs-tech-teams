@@ -108,6 +108,7 @@ header *{
 	display: table-cell;
 	vertical-align: middle;
 	color: #000;
+	border-spacing: 0;
 }
 
 .link-button, .inline-button, .dropdown-button{
