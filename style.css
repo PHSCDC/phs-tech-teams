@@ -144,7 +144,7 @@ header .link-button, .dropdown-button{
 
 .dropdown-button > p{
 	display: inline;
-	padding-bottom: 0em;
+	padding-bottom: 0.25em;
 }
 
 .dropdown-contents{
