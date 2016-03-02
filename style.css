@@ -8,7 +8,7 @@
 		url("font/kelson_sans_bold-webfont.eot");
 }
 
-*{outline: 1px solid purple;}
+/**{outline: 1px solid purple;}*/
 
 body{
 	margin: 0;
