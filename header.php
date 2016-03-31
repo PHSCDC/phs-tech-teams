@@ -1,13 +1,29 @@
 <header>
-	<div class="left">
+   
+    <div class="left">
 		<h1><a href="index.php" class="plain-link">PHS Tech Teams</a></h1>
 	</div>
+    <?php
+        session_start();
+        if(isset($_SESSION['user'])){
+    ?>
+        <div class="center">
+            <h4 class="plain-link">You are logged in as  <?php echo($_SESSION['user']);?>.</h4>
+        </div>
+
+        <div class="right">
+            <a href="upload.php" class="link-button">Upload</a>
+        </div>
+    
+    <?php }else{ ?>
+        <div class="right">
+            <a href="login.php" class="link-button">Login</a>
+        </div>
+    <?php } ?>
+
+
 	<div class="right">
 		<a href="videolist.php" class="link-button">Videos</a>
-    </div>
-    
-    <div class="right">
-        <a href="login.php" class="link-button">Login</a>
     </div>
 
 	<div class="right">
