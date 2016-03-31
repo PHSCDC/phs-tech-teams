@@ -29,7 +29,7 @@
 	<div class="right">
 		<a href="videolist.php" class="link-button">Videos</a>
     </div>
-<!-->
+<!--
 	<div class="right">
 		<div class="dropdown-button">
 			<p>Teams</p>
