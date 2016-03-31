@@ -4,7 +4,12 @@
 	</div>
 	<div class="right">
 		<a href="videolist.php" class="link-button">Videos</a>
-	</div>
+    </div>
+    
+    <div class="right">
+        <a href="login.php" class="link-button">Login</a>
+    </div>
+
 	<div class="right">
 		<div class="dropdown-button">
 			<p>Teams</p>
