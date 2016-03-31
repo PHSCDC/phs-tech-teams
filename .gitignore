@@ -1,0 +1,8 @@
+config.php
+forum
+video/*.mp4
+video/*.webm
+img/*.jpg
+img/*.jpeg
+img/*.png
+img/*.bmp

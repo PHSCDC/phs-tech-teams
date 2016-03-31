@@ -10,9 +10,11 @@
 
         if($file_size > $maxUploadSize) $errors[] ="File is too large";
         
+	var_dump($_FILES);
+	var_dump($errors);
         if(empty($errors)==true){
             move_uploaded_file($file_tmp, 'video/' . $file_name);
         }
     }
-    header("Location: /videolist.php")
+    #header("Location: /videolist.php")
 ?>
