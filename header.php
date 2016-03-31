@@ -14,7 +14,11 @@
         <div class="right">
             <a href="upload.php" class="link-button">Upload</a>
         </div>
-    
+
+        <div class="right">
+            <a href="logout.php" class="link-button">Logout</a>
+        </div>
+
     <?php }else{ ?>
         <div class="right">
             <a href="login.php" class="link-button">Login</a>
@@ -36,9 +40,11 @@
 			</div>
 		</div>
 	</div>
+    <!--
 	<div class="right">
 		<a href="index.php" class="link-button">Home</a>
-	</div>
+    </div>
+    -->
 </header>
 <header class="spacer">
 	<div class="left">
