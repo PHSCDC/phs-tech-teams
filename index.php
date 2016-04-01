@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>PHS Tech Teams</title>
+<title>PHS Technology</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -15,13 +15,12 @@
 	<div id="slideshow-right-arrow"><p>&gt;</p></div>
 	<div id="slideshow-label"></div>
 </div>
-<p>Welcome to the Prairie High School Tech Teams Website!</p>
-<p>Here you can view all of the Tech Team Videos as well as learn more about what we have to offer as a club.
-</p>
-<!--
-<h1 class="center">External Links</h1>
-<a class="card third" href="http://www.codecademy.com/"><img src="img/codecademy.png" alt="Codecademy" /></a>
--->
+<p>
+Welcome to the Prairie High School Technology Teams home page!
+
+Though our domain name includes cyber defense, we have expanded to also include our school's robotics. Some of the students who participate in the IT Olympics work with our school's virtual reality team. All three groups make up what we call our Prairie High School Technology Teams.
+
+The purpose of our site is to provide a range of interested learners with instructional and informative videos, and other sources to help them as they delve more and more into the amazing world of technology!  This collective effort, <b>which was built from the ground up</b>, is our Community Service component of the IT Olympics.  Our aim was to create authentic, useful, student-made videos to serve as an open access resource in an attempt to share some of our knowledge to learners all across the globe.</p>
 
 <?php include("footer.php"); ?>
 </body>

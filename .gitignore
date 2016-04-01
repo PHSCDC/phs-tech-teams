@@ -1,3 +1,5 @@
+*.un~
+*~
 config.php
 forum
 video/*.mp4
