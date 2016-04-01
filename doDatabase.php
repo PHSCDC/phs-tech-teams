@@ -4,12 +4,9 @@ function addVideo($title, $uploader, $description){
 
     $key = hash('sha256', $description . $uploader);
 
-    $db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); 
-
     $insert = $db->prepare("insert into videos (title, uploader, description, hash) values ('$title','$uploader','$description', '$key')");
 
     $insert->execute();
-    print_r($db->errorInfo());
     include 'closeDB.php';
 
 }
