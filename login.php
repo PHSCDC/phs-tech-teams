@@ -2,16 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>PHS Student Tech Teams</title>
+<title>Login</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <?php include("header.php"); ?>
-<h1 class="center">Login</h1>
 <div class="center">
     <form action="doLogin.php" method="post">
-            Username:<input type="text" name='user'><br/>
-            Password:<input type="password" name='passwd'><br/>
+            <p><b>U S E R N A M E</b></p>
+            <input type="text" name='user'><br>
+            <br>
+            <p><b>P A S S W O R D</b></p>
+            <input type="password" name='passwd'><br><br>
             <input type="submit" value="Log in">
     </form>
 </div>
