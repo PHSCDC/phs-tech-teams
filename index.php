@@ -15,7 +15,7 @@
 	<div id="slideshow-right-arrow"><p>&gt;</p></div>
 	<div id="slideshow-label"></div>
 </div>
-<p>Welcome to the Prairie High School Cyber Defense Home Page!</p>
+<p>Welcome to the Prairie High School Tech Teams Website!</p>
 <p>Here you can view all of the Tech Team Videos as well as learn more about what we have to offer as a club.
 </p>
 <!--
