@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>PHS Student Tech Teams</title>
+<title>PHS Technology</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
