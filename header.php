@@ -1,4 +1,4 @@
-<header>
+<header id="header">
 	<div class="left">
 		<h1><a href="index.php" class="plain-link">PHS Tech Teams</a></h1>
 	</div>
@@ -44,15 +44,16 @@
     </div>
 -->
 </header>
-<header class="spacer"> 
+<header class="spacer" id="header-spacer">
 	<!--
 		Mimic the shape of the visible header, to compensate
 		for the fixed header not being a part of the document flow.
 		It's admittedly hacky, but functional.
 	-->
-	<?php
-		$dom = new DOMDocument;
-		$dom->loadXML($xml);
-		$header = $dom->getElementsByTagName('book');
-	?>
+	<script>
+		document.getElementById("header-spacer").innerHTML = document.getElementById("header").innerHTML;
+	</script>
+	<noscript>
+		<h1>PHS Tech Teams</h1>
+	</noscript>
 </header>
