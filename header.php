@@ -26,9 +26,9 @@
                 <div class="dropdown-button">
                         <p>Teams</p>
                         <div class="dropdown-contents">
-                                <a href="/team/cd.php" class="link-button">Cyber Defense</a>
-                                <a href="/team/robotics.php" class="link-button">Robotics</a>
-                                <a href="/team/vrep.php" class="link-button">VREP</a>
+                                <a href="/cd.php" class="link-button">Cyber Defense</a>
+                                <a href="/robotics.php" class="link-button">Robotics</a>
+                                <a href="/vrep.php" class="link-button">VREP</a>
                         </div>
                 </div>
         </div>
