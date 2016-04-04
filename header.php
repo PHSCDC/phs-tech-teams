@@ -22,6 +22,10 @@
 		</div>
 	<?php endif; ?>
 
+	<div class="right">
+                <a href="videolist.php" class="link-button">Videos</a>
+        </div>
+
         <div class="right">
                 <div class="dropdown-button">
                         <p>Teams</p>
@@ -34,7 +38,7 @@
         </div>
 
         <div class="right">
-                <a href="videolist.php" class="link-button">Videos</a>
+                <a href="/forum/" class="link-button">Forum</a>
         </div>
 
 </header>
